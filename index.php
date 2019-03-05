@@ -86,5 +86,38 @@
             </div>
         </div>
     </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+            <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        xxx
+                    </div>
+            </section>
+            <aside>
+                <div class="widget"> <!-- Irá "representar" os titulos das sessões e tbém servirá de base para a section superior.. -->
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        xxx
+                    </div>
+
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make an Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        xxx
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
 </body>
 </html>

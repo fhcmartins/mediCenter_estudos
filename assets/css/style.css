@@ -58,10 +58,11 @@ nav a:hover { /* colocará um background para cada menu qdo mouse estiver por ci
 #banner {
     display: flex;
     justify-content: center;
-    background-image: url('../images/banner.jpg');
+    background: url('../images/banner.jpg') ;
     background-position: center;
     background-size: cover; /* Em monitores grandes a imagem irá se expandir. */
-    height: 670px; /* Altura colocada inicialmente para que a imagem apareça. */
+    height: 849px; /* Altura colocada inicialmente para que a imagem apareça. */
+    background-repeat: no-repeat;
 }
 
 .column {
@@ -145,4 +146,35 @@ nav a:hover { /* colocará um background para cada menu qdo mouse estiver por ci
     margin-top: 20px;
     border-bottom: 1px solid #e8eaeb52;
     padding-bottom: 10px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2; /* Ocupará duas colunas. Tomamos como refererência as colunas do banner. */
+}
+
+#geral aside {
+    flex: 1;    
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 5px;
 }
