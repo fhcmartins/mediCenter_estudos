@@ -10,8 +10,8 @@
     <title>MediCenter</title>
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header> <!-- Irá fazer parte do layout do cabeçalho. -->
+        <div class="container"> <!-- Irá servir como padrão de alinhamento para todo o site. -->
             <div class="logo">
                 <a href=""><img src="assets/images/logo_clinica.png" alt="Logo MediCenter" width="200px"></a>
             </div>
@@ -28,6 +28,10 @@
                 </nav>
             </div>
         </div>
-    </header> 
+    </header>
+
+    <section id="banner"> <!-- Quaisquer sessões do site ficão dentro das tags section. -->
+        
+    </section>
 </body>
 </html>
