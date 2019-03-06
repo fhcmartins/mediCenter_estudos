@@ -63,6 +63,7 @@ nav a:hover { /* colocará um background para cada menu qdo mouse estiver por ci
     background-size: cover; /* Em monitores grandes a imagem irá se expandir. */
     height: 849px; /* Altura colocada inicialmente para que a imagem apareça. */
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 .column {
@@ -162,7 +163,6 @@ nav a:hover { /* colocará um background para cada menu qdo mouse estiver por ci
 }
 
 .widget_title {
-    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -177,4 +177,47 @@ nav a:hover { /* colocará um background para cada menu qdo mouse estiver por ci
     height: 3px;
     background-color: #36a9e1;
     margin-top: 5px;
+}
+
+.dept_specialties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dept_specialties div {
+    width: 175px;
+    height: 175px;
+    margin-bottom: 25px;
+    background-color: #03a2df;
+    color: #FFFFFF
+}
+
+.widget_body {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 28px;
+}
+
+.body_text {
+    display: flex;
+    text-align: justify; /* centralizando verticalmente a div */
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(159, 159, 159, 0.6);
+    padding-bottom: 20px;
+}
+
+.body_contact div {
+    display: flex;
+    border-bottom: 2px solid rgba(159, 159, 159, 0.6);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer div {
+    height: 300px;
 }

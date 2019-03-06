@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <script src="main.js"></script>
 
     <title>MediCenter</title>
 </head>
 <body>
+    <!-- *************************** -->
+    <!-- *********** MENU ********** -->
+    <!-- *************************** -->
     <header> <!-- Irá fazer parte do layout do cabeçalho. -->
         <div class="container"> <!-- Irá servir como padrão de alinhamento para todo o site. -->
             <div class="logo">
@@ -33,7 +38,10 @@
         </div>
     </header>
 
-    <section id="banner"> <!-- Quaisquer sessões do site ficão dentro das tags section. -->
+    <!-- *************************** -->
+    <!-- ********** BANNER ********* -->
+    <!-- *************************** -->
+    <section id="banner"> <!-- Quaisquer sessões do site ficarão dentro das tags section. -->
         <div class="container column">
             <!-- As duas divs abaixo deverão ter altura, só que somente a segunda terá um tamnho
             fixo. Logo, a primeira terá o seu tamanho variável, trabalhando de acordo com o tamnho
@@ -87,9 +95,15 @@
         </div>
     </section>
 
+    <!-- *************************** -->
+    <!-- ****** MAIN CONTENT ******* -->
+    <!-- *************************** -->
     <section id="geral">
         <div class="container">
             <section>
+            <!-- *************************** -->
+            <!-- ******* LEFT CONTENT ****** -->
+            <!-- *************************** -->
             <div class="widget_title">
                         <div class="widget_title_text">Latest News</div>
                         <div class="widget_title_bar"></div>
@@ -98,26 +112,50 @@
                         xxx
                     </div>
             </section>
+            <!-- *************************** -->
+            <!-- ******* RIGHT CONTENT ***** -->
+            <!-- *************************** -->
             <aside>
                 <div class="widget"> <!-- Irá "representar" os titulos das sessões e tbém servirá de base para a section superior.. -->
                     <div class="widget_title">
                         <div class="widget_title_text">Departments</div>
                         <div class="widget_title_bar"></div>
                     </div>
-                    <div class="widget_body">
-                        xxx
+                    <div class="dept_specialties">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
                     </div>
-
+                </div>
+                <div class="widget">
                     <div class="widget_title">
                         <div class="widget_title_text">Make an Appointment</div>
                         <div class="widget_title_bar"></div>
                     </div>
                     <div class="widget_body">
-                        xxx
+                        <div class="body_text">
+                            Praesent luctus at eros quis ullamcorper. Proin mollis orci sit amet diam elementum, ut ullamcorper dui rutrum.
+                            Sed viverra dui turpis, vitae accumsan neque malesuada non.
+                        </div>
+                        <div class="body_contact">
+                            <div><i class="fas fa-phone fa-2x"></i>&nbsp;&nbsp;by phone: &nbsp;<strong>(510) 210-5225 / (510) 210-5226</strong></div>
+                            <div><i class="fas fa-envelope fa-2x"></i>&nbsp;&nbsp;by e-mail: &nbsp;<a href="mailto:medicenter@email.com">medicenter@email.com</a></div>
+                            <div><i class="fas fas fa-file-alt fa-2x"></i>&nbsp;&nbsp;&nbsp;or &nbsp;<a href="">fill in the form</a> &nbsp; on our contact page. </div>
+                        </div>
                     </div>
                 </div>
             </aside>
         </div>
     </section>
+
+    <!-- *************************** -->
+    <!-- ********** FOOTER ********* -->
+    <!-- *************************** -->
+    <footer>
+        <div>xxx</div>
+    </footer>
 </body>
 </html>
