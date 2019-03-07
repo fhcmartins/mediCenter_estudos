@@ -108,8 +108,87 @@
                         <div class="widget_title_text">Latest News</div>
                         <div class="widget_title_bar"></div>
                     </div>
-                    <div class="widget_body">
-                        xxx
+                    <div class="widget_body_left flex">
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">03 MAR 19</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="Imagens do Dr.">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="news_resume">
+                                    Sed aliquam justo quis est lobortis, vel imperdiet tellus porttitor. 
+                                    Donec tincidunt neque semper vulputate varius. Praesent luctus at eros quis ullamcorper. 
+                                    Proin mollis orci sit amet diam elementum, ut ullamcorper dui rutrum. 
+                                    
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">03 MAR 19</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="Imagens do Dr.">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="news_resume">
+                                    Sed aliquam justo quis est lobortis, vel imperdiet tellus porttitor. 
+                                    Donec tincidunt neque semper vulputate varius. Praesent luctus at eros quis ullamcorper. 
+                                    Proin mollis orci sit amet diam elementum, ut ullamcorper dui rutrum. 
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">03 MAR 19</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="Imagens do Dr.">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="news_resume">
+                                    Sed aliquam justo quis est lobortis, vel imperdiet tellus porttitor. 
+                                    Donec tincidunt neque semper vulputate varius. Praesent luctus at eros quis ullamcorper. 
+                                    Proin mollis orci sit amet diam elementum, ut ullamcorper dui rutrum. 
+                                </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="#">
+                                <div class="news_data">
+                                    <div class="news_posted_at">03 MAR 19</div>
+                                    <div class="news_comments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="assets/images/dr.jpg" alt="Imagens do Dr.">
+                                </div>
+                                <div class="news_title">
+                                    Lorem ipsum dolor sit amet velum
+                                </div>
+                                <div class="news_resume">
+                                    Sed aliquam justo quis est lobortis, vel imperdiet tellus porttitor. 
+                                    Donec tincidunt neque semper vulputate varius. Praesent luctus at eros quis ullamcorper. 
+                                    Proin mollis orci sit amet diam elementum, ut ullamcorper dui rutrum. 
+                                </div>
+                            </a>
+                        </article>
                     </div>
             </section>
             <!-- *************************** -->
@@ -135,7 +214,7 @@
                         <div class="widget_title_text">Make an Appointment</div>
                         <div class="widget_title_bar"></div>
                     </div>
-                    <div class="widget_body">
+                    <div class="widget_body_right">
                         <div class="body_text">
                             Praesent luctus at eros quis ullamcorper. Proin mollis orci sit amet diam elementum, ut ullamcorper dui rutrum.
                             Sed viverra dui turpis, vitae accumsan neque malesuada non.
@@ -155,7 +234,52 @@
     <!-- ********** FOOTER ********* -->
     <!-- *************************** -->
     <footer>
-        <div>xxx</div>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    xxx
+                </div>
+                <div class="fm_2">
+                    xxx
+                </div>
+                <div class="fm_3">
+                    xxx
+                </div>
+            </div>
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Medicenter Clinic</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="dept_specialties">
+                        xxx
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Posts</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="dept_specialties">
+                        xxx
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest Tweets</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="dept_specialties">
+                        xxx
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Site copiado com a exclusiva finalidade de aprendizado.
+            </div>
+        </div>
     </footer>
 </body>
 </html>
